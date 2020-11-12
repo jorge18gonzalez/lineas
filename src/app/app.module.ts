@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { StockComponent } from './stock/stock.component';
 import { MovilComponent } from './movil/movil.component';
+import { QuienesComponent } from './quienes/quienes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MovilComponent } from './movil/movil.component';
     HeaderComponent,
     FooterComponent,
     StockComponent,
-    MovilComponent
+    MovilComponent,
+    QuienesComponent
   ],
   imports: [
     BrowserModule,
