@@ -12,8 +12,8 @@
       <tr>
         <th scope="row">{{telefono.id}}</th>
         <td>{{telefono.marca}}</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td>{{telefono.precio}}</td>
+        <td><a [routerLink]="['/equipo' , telefono.id]" class="btn btn-sucsses" >ver Mas</a></td>
       </tr>
     </tbody>
   </table>
